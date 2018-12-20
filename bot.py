@@ -8,12 +8,12 @@
     @property
     def token(self):
         '''Returns your token wherever it is'''
-        return self.config.get('TOKEN')
+        token = os.environ ('TOKEN')or self.config.get('TOKEN')
 
     async def on_connect(self):
         print('---------------')
         print('Rage StatBot connected!')
-        status = os.getenv('STATUS') or self.config.get('STATUS')
+        status = os.environ('STATUS') or self.config.get('STATUS')
         if status:
             print(f'Setting Status to {status}')
             await self.change_presence(activity=discord.Game(status))
@@ -22,7 +22,7 @@
 
     @property
     def guild_id(self):
-        return int(self.config.get('GUILD_ID'))
+        guild = os.environ ('GUILD_ID') or self.config.get('GUILD_ID')
     
     @property
     def guild(self):
