@@ -1,3 +1,20 @@
+import discord
+from discord.ext import commands
+from urllib.parse import urlparse
+import asyncio
+import textwrap
+import datetime
+import time
+import json
+import sys
+import os
+import re
+import string
+import traceback
+import io
+import inspect
+from contextlib import redirect_stdout       
+    
     @property
     def config(self):
         with open('config.json') as f:
