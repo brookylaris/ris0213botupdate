@@ -11,5 +11,4 @@
         "description": "Set a custom playing status for the bot.",
         "required": false
     }
-  }
 }
