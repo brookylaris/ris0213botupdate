@@ -6,15 +6,15 @@ let xdemb = new Discord.RichEmbed()
         .setColor("#00ff00")
         .setTitle("Ban Command")
         .addField("Description:", `Ban a member`, true)
-        .addField("Usage:", `!ban [user] [reason]`, true)
-        .addField("Example:", `!ban @Odar spam`)
+        .addField("Usage:", `r?ban [user] [reason]`, true)
+        .addField("Example:", `r?ban @Rage spam`)
 
-        if(!message.member.hasPermission("BAN_MEMBERS") && message.author.id !== "291221132256870400") return message.channel.send("Sorry you don't have permission to use this!");
+        if(!message.member.hasPermission("BAN_MEMBERS") && message.author.id !== "448778965293727744") return message.channel.send("Sorry, Larissa didn't give you permission to use this!");
 
         let member = message.mentions.members.first();
         if(!member) return message.channel.send(xdemb)
-        if(!member.bannable) return message.channel.send("I can't ban this user!")
-        if(member.user.id === "291221132256870400") return message.channel.send("I can't ban my owner!")
+        if(!member.bannable) return message.channel.send("I can't ban this Rage Member!")
+        if(member.user.id === "448778965293727744") return message.channel.send("I can't ban my Empress!")
 
         if(member.id === message.author.id) return message.channel.send("You can't ban your self")
 
@@ -26,7 +26,7 @@ let xdemb = new Discord.RichEmbed()
             res = reason
         }
 
-        await member.ban(reason).catch(error => message.channel.send(`Sorry, I coldn't ban because of: ${error}`));
+        await member.ban(reason).catch(error => message.channel.send(`Sorry, I couldn't ban because of: ${error}`));
 
         let bean = new Discord.RichEmbed()
         .setColor("#00ff00")
