@@ -2,10 +2,10 @@ const Discord = require('discord.js');
 const fs = require("fs");
 
 exports.run = (client, message, args) => {
-  if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("You don't have premission to do that!");
+  if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("Larissa didnt give you premission to do that!");
   let reason = args.slice(1).join(' ');
   let user = message.mentions.users.first();
-  if (message.mentions.users.size < 1) return message.reply('You must mention someone to warn them.');
+  if (message.mentions.users.size < 1) return message.reply('You must mention the Rage Member <@user> to warn them.');
   if (reason.length < 1) return message.reply('You must have a reason for the warning.');
 
   let dmsEmbed = new Discord.RichEmbed()
