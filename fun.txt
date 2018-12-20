@@ -1,8 +1,8 @@
-`!say` **Say something trough the bot!** __Usage__: *!say <message>*
-`!weather` **Shows the weather in a place** __Usage__: *!weather <place> [country]*
-`!clap` **Makes a text with the :clap:** __Usage__: *!calp <text>*
-`!mock` **Mocks some text** __Usage__: *!mock <text>*
-`!urban` **Get the defintion of something** __Usage__: *!urban <word>*
-`!translate` **Translate somthing in other languange** __Usage__: *!translate <language> <word>*
-`!rate` **Rate someone** __Usage__: *!rate <@user>*
+`r?say` **Say something trough the bot!** __Usage__: *r?say <message>*
+`r?weather` **Shows the weather in a place** __Usage__: *r?weather <place> [country]*
+`r?clap` **Makes a text with the :clap:** __Usage__: *r?calp <text>*
+`r?mock` **Mocks some text** __Usage__: *r?mock <text>*
+`r?urban` **Get the defintion of something** __Usage__: *r?urban <word>*
+`r?translate` **Translate somthing in other languange** __Usage__: *r?translate <language> <word>*
+`r?rate` **Rate someone** __Usage__: *r?rate <@user>*
 
