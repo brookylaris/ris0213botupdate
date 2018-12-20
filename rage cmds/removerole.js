@@ -4,7 +4,7 @@ module.exports.run = async (bot, message, args) => {
   if(args[0] == "help"){
     let helpembxd = new Discord.RichEmbed()
     .setColor("#00ff00")
-    .addField("Removerole Command", "Usage: !removerole <@user> <role>")
+    .addField("Removerole Command", "Usage: r?removerole <@user> <role>")
 
     message.channel.send(helpembxd);
     return;
@@ -15,9 +15,9 @@ module.exports.run = async (bot, message, args) => {
   .setTitle(`Removerole command`)
   .addField("Description:", "Take role from member", true)
   .addField("Usage", "!removerole [user] [role]", true)
-  .addField("Example", "!removerole @Odar Member")
+  .addField("Example", "!removerole @Rage Member")
 
-  if(!message.member.hasPermission("MANAGE_ROLES")) return message.channel.send("You need the `manage members`premission to do that!.");
+  if(!message.member.hasPermission("MANAGE_ROLES")) return message.channel.send("Larissa needs to give you `manage members` premission to do that!.");
   let rMember = message.guild.member(message.mentions.users.first()) || message.guild.members.get(args[0]);
   if(!rMember) return message.channel.send(xdemb);
 
