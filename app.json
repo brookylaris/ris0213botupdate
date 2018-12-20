@@ -1,5 +1,4 @@
 {
-  {
     "TOKEN": {
         "description": "Your discord bot's token.",
         "required": true
