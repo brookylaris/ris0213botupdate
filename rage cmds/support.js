@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
     .setThumbnail(bicon)
     .setTitle("Support Info")
     .addField("To see the bot commands use", "`r?help`")
-    .addField("If you need help with somehign else", "[Main Sever](https://discord.gg/exEBTMA)")
+    .addField("If you need help with something else", "[Main Sever](https://discord.gg/exEBTMA)")
 
     message.channel.send(embed)
 
