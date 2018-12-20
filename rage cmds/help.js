@@ -27,7 +27,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor("#00ff00")
     .setTitle("Support")
     .setDescription("If you need help with something feel free to join the [Main Server](https://discord.gg/exEBTMA)")
-    .setFooter("Rage StatBot Created by:RageEmpress")
+    .setFooter("Rage StatBot Created by: RageEmpress")
     .setTimestamp()
 
     pidor.send(supEmbed)
