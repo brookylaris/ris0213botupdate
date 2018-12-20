@@ -11,7 +11,7 @@ const dbl = new DBL(process.env.dblapi, client);
 const bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
 
-fs.readdir("./cmds", (err, files) => {
+fs.readdir("./rage cmds", (err, files) => {
     if(err) console.error(err);
 
     let jsfiles = files.filter(f => f.split(".").pop() === "js");
@@ -23,7 +23,7 @@ fs.readdir("./cmds", (err, files) => {
     console.log(`Loading ${jsfiles.length} commands!`);
 
     jsfiles.forEach((f, i) => {
-        let props = require(`./cmds/${f}`);
+        let props = require(`./rage cmds/${f}`);
         console.log(`${i + 1}: ${f} loaded!`);
         bot.commands.set(props.help.name, props);
     });
