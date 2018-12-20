@@ -1,20 +1,20 @@
 const Discord = require("discord.js")
 module.exports.run = async (bot, message, args) => {
 
-  if (!message.member.hasPermission("KICK_MEMBERS")  && message.author.id !== "291221132256870400") return message.channel.send("Sorry, you don't have permissions to use this!");
+  if (!message.member.hasPermission("KICK_MEMBERS")  && message.author.id !== "448778965293727744") return message.channel.send("Sorry, Larissa didn't give you permissions to use this!");
     
   let xdemb = new Discord.RichEmbed()
   .setColor("#00ff00")
   .setTitle("Kick Command")
   .addField("Description:", `Kick a member`, true)
   .addField("Usage:", "!kick [user] [reason]", true)
-  .addField("Example:" ,"!kick @Odar spam")
+  .addField("Example:" ,"r?kick @rage spam")
 
     let member = message.mentions.members.first();
     if(!member) return message.channel.send(xdemb)
       
     if(!member.kickable) 
-      return message.channel.send("I cannot kick this user!");
+      return message.channel.send("I cannot kick this Rage Member!");
     
     let reason = args.slice(1).join(' ');
     if(!reason) {
