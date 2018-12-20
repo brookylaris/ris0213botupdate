@@ -6,9 +6,8 @@ module.exports.run = async (bot, message, args) => {
     .setColor("#00ff00")
     .setThumbnail(bicon)
     .setTitle("Support Info")
-    .addField("To see the bot commands use", "`!help`")
-    .addField("To report bug use", "`!contact`")
-    .addField("If you need help with somehign else", "[Support Sever](https://discord.gg/zvvasbc)")
+    .addField("To see the bot commands use", "`r?help`")
+    .addField("If you need help with somehign else", "[Main Sever](https://discord.gg/exEBTMA)")
 
     message.channel.send(embed)
 
