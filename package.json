@@ -1,9 +1,9 @@
 {
-  "name": "OdarBot",
+  "name": "RageStatBot",
   "version": "0.0.1",
-  "description": "Odar Bot",
+  "description": "Rage StatBot",
   "main": "bot.js",
-  "author": "Odar",
+  "author": "RageEmpress",
   "license": "ISC",
   "engines": {
     "node": "10.x"
