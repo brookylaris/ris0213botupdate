@@ -1,13 +1,13 @@
 {
-    "TOKEN": {
+    "token": {
         "description": "Your discord bot's token.",
         "required": true
     },
-    "GUILD_ID": {
+    "guild_id": {
         "description": "The id for the server you are hosting this bot for.",
         "required": true
     },
-    "STATUS": {
+    "status": {
         "description": "Set a custom playing status for the bot.",
         "required": false
     }
