@@ -1,14 +1,14 @@
-# Rage Stat Disord Bot
+# RageStat Disord Bot
 
 ----
 ## What is the [Rage Bot]
-> Rage Bot is Discord Bot with alot of special statistic commands and has Moderaion commands like: *Ban, Kick, Mute, Warn* and more!
+> Ragestat is Discord Bot with alot of special commands and has Moderaion commands like: *Ban, Kick, Mute, Warn* and more!
 
 ## Support
 * If you have any questions feel free to join the **[Main Server] (https://discord.gg/exEBTMA)**
 ----
 
-# Commands
+# Featured Commands
 
 * `r?weather` **Shows the weather in a place** _Usage_: *r?weather <place> [country]*
 * `r?clap` **Puts 👏 between your message** _Usage_: *r?calp <text>*
@@ -29,7 +29,7 @@
 * `r?roleinfo` **Shows roleinfo** _Usage_: *r?roleinfo <role>*
 ----
 
-## Moderation
+## Moderation Commands
 
 * `r?addrole` **Gives someone a role** _Usage_: *r?addrole <@user> <role>*
 * `r?removerole` **Removes someone's role** _Usage_: *r?removerole <@user> <role>*
