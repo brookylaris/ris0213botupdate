@@ -2,7 +2,7 @@
 
 ----
 ## What is the [Rage Bot]
-> Rage Bot is Discord Bot with alot of Fun commands and aslot Moderaion commands like: *Ban, Kick, Mute, Warn* and more!
+> Rage Bot is Discord Bot with alot of special statistic commands and has Moderaion commands like: *Ban, Kick, Mute, Warn* and more!
 
 ## Support
 * If you have any questions feel free to join the **[Main Server] (https://discord.gg/exEBTMA)**
